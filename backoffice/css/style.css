@@ -1,0 +1,61 @@
+:root {
+  --cinza-1d: #1d1d1d;
+  --cinza-70: #707070;
+  --cinza-4d: #4d4d4d;
+  --dourado-b4: #b47d33;
+  --dourado-b1: #b17e3b;
+  --dourado-a9: #a97339;
+  --branco: white;
+  --preto: black;
+}
+
+
+body{
+    background-color: rgb(122,122,122);
+}
+
+
+h1, h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.caixa{
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    padding: 16px;
+    border: 2px solid white;
+    border-radius: 16px;
+}
+
+.botaoEntrar{
+    padding:3px;
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#link_imagem_home{
+    width: 765px !important;
+}
+
+.t1 {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--cinza-4d);
+}
+
+.p {
+  font-family: "IBM Plex Sans";
+  font-weight: lighter;
+  font-size: 13px;
+  color: var(--cinza-4d);
+}
+

@@ -1,0 +1,441 @@
+:root {
+  --cinza-1d: #1d1d1d;
+  --cinza-70: #707070;
+  --cinza-4d: #4d4d4d;
+  --dourado-b4: #b47d33;
+  --dourado-b1: #b17e3b;
+  --dourado-a9: #a97339;
+  --branco: white;
+  --preto: black;
+}
+
+.t1 {
+  font-family: "IBM Plex Sans";
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: var(--cinza-4d);
+}
+
+.p {
+  font-family: "IBM Plex Sans";
+  font-weight: lighter;
+  font-size: 13px;
+  color: var(--cinza-4d);
+}
+
+.titulo {
+  font-family: "IBM Plex Sans";
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: var(--cinza-4d);
+}
+
+.titulo-banner {
+  font-family: "IBM Plex Sans";
+  font-weight: lighter;
+  font-size: 40px;
+  color: var(--cinza-4d);
+  text-transform: uppercase;
+}
+
+.texto-banner {
+  font-family: "IBM Plex Sans";
+  font-weight: lighter;
+  font-size: 13px;
+  line-height: 17px;
+  color: var(--cinza-4d);
+}
+
+.menu {
+  font-family: "Lato Black";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--cinza-4d) !important;
+  text-decoration: none;
+}
+
+.menu:hover,
+.menu.active {
+  color: var(--dourado-b4) !important;
+}
+
+.submenu {
+  font-family: "IBM Plex Sans";
+  font-size: 13px;
+  color: var(--cinza-4d) !important;
+  text-transform: uppercase;
+}
+
+.submenu:hover,
+.submenu.active {
+  color: var(--dourado-b1) !important;
+}
+
+body {
+  max-width: 1280px;
+  min-width: 360px;
+  margin: auto;
+}
+
+#topo-absoluto {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  max-width: 1280px;
+  min-width: 360px;
+}
+
+.hr-topo {
+  color: black !important;
+  border-color: black !important;
+  background-color: black !important;
+}
+
+#nav-topo-desktop {
+  margin-top: -15px;
+}
+
+#nav-topo-desktop a,
+footer nav a {
+  padding: 8px 16px;
+}
+
+.dropdown-menu {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.05);
+}
+
+#carousel-desktop .carousel-indicators {
+  /* top: 585px; */
+  bottom: 80px;
+}
+
+#carousel-desktop img {
+  max-height: 730px;
+}
+
+.carousel-indicators button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+  background-image: url("../images/bolabanner1.svg");
+  background-position: center;
+  background-size: cover;
+  background-color: transparent !important;
+  margin: 0px 9px !important;
+}
+
+.carousel-indicators button.active,
+.carousel-indicators button:hover {
+  background-image: url("../images/bolabanner2.svg");
+}
+
+#carousel-desktop .carousel-caption {
+  /* top: 250px; */
+  bottom: 170px;
+  text-align: left;
+  width: 40%;
+}
+
+#carousel-mobile {
+  background-color: rgb(225, 225, 225);
+}
+
+#carousel-mobile img {
+  max-width: 400px;
+  max-height: 760px;
+  margin: auto;
+}
+
+#carousel-mobile .carousel-caption {
+  bottom: 130px;
+  text-align: left;
+  max-width: 460px;
+  margin: auto;
+  left: 0%;
+  right: 0%;
+  padding: 0px 30px;
+}
+
+#carousel-mobile .titulo-banner {
+  font-size: 30px;
+}
+
+#carousel-mobile .carousel-indicators {
+  max-width: 460px;
+  margin: auto;
+  left: 0%;
+  right: 0%;
+  padding: 0px 20px;
+  bottom: 10px;
+}
+
+.carousel-observacao {
+  font-family: "Lato Bold";
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--dourado-b1) !important;
+  height: 20px;
+}
+
+.botao-saber-mais {
+  border: 0px;
+  background-image: url("../images/sabermais1.svg");
+  background-size: cover;
+  background-position: center;
+  width: 120px;
+  height: 30px;
+}
+
+.botao-saber-mais:hover {
+  background-image: url("../images/sabermais2.svg");
+}
+
+.botao-voltar {
+  border: 0px;
+  background-image: url("../images/voltar1.svg");
+  background-size: cover;
+  background-position: center;
+  width: 132px;
+  height: 30px;
+}
+
+.botao-voltar:hover {
+  background-image: url("../images/voltar2.svg");
+}
+
+.botao-vermais {
+  border: 0px;
+  background-image: url("../images/vermais.svg");
+  background-size: cover;
+  background-position: center;
+  width: 90px !important;
+  height: 26px !important;
+}
+
+.botao-vermais:hover {
+  background-image: url("../images/vermais-cinza.svg");
+}
+
+.caixa-branca {
+  position: relative;
+  top: -50px;
+  z-index: 10;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.caixa-branca img {
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 311px;
+  max-height: 400px;
+}
+
+.caixa-branca .t1 {
+  font-weight: normal;
+}
+
+.autor-imagem {
+  max-width: 500px;
+}
+
+.card {
+  width: 318px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0px;
+  border: 0px;
+}
+
+.card-imagem img {
+  max-height: 420px;
+}
+
+.card-titulo {
+  font-family: "IBM Plex Sans";
+  font-size: 23px;
+  text-transform: uppercase;
+  color: var(--cinza-4d);
+  line-height: 23px;
+}
+
+.card-observacao {
+  font-family: "Lato Bold";
+  font-weight: 300;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--dourado-b1) !important;
+}
+
+footer nav {
+  border-top: 2px solid rgb(180, 180, 180);
+  border-bottom: 2px solid rgb(180, 180, 180);
+}
+
+footer nav .menu {
+  font-size: 16px;
+}
+
+footer .t1 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.titulo-campo {
+  font-family: "IBM Plex Sans";
+  font-size: 15px;
+  color: var(--dourado-b1);
+  text-transform: uppercase;
+}
+
+.icone {
+  width: 37px;
+  height: 37px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.icone-instagram {
+  background-image: url("../images/instagram1.svg");
+}
+
+.icone-instagram:hover {
+  background-image: url("../images/instagram2.svg");
+}
+
+.icone-facebook {
+  background-image: url("../images/facebook1.svg");
+}
+
+.icone-facebook:hover {
+  background-image: url("../images/facebook2.svg");
+}
+
+.icone-linkedin {
+  background-image: url("../images/linkedin1.svg");
+}
+
+.icone-linkedin:hover {
+  background-image: url("../images/linkedin2.svg");
+}
+
+.dropdown-menu {
+  border: 0px;
+  border-radius: 0px;
+  padding: 20px 10px;
+}
+
+.dropdown-menu a:hover,
+.dropdown-menu:active,
+.dropdown-menu:focus {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+   background-color: rgb(255, 255, 255) !important; 
+}
+
+.data-publicacao {
+  font-family: "IBM Plex Sans" !important;
+  font-size: 13px !important;
+  text-transform: uppercase !important;
+  color: var(--cinza-4d) !important;
+}
+
+.impresa-shadow {
+  box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.numeros-paginacao {
+  font-family: "IBM Plex Sans" !important;
+  font-size: 23px !important;
+  text-transform: uppercase !important;
+  color: var(--cinza-4d) !important;
+  text-decoration: none !important;
+}
+
+.numeros-paginacao:hover,
+.numeros-paginacao.active {
+  color: var(--dourado-b1) !important;
+}
+
+.imprensa-linha-titulo {
+  height: 1px;
+  background-color: var(--dourado-a9);
+}
+
+.imprensa-linha {
+  height: 50px;
+  box-shadow: 0px 5px 5px 0px rgb(225, 225, 225);
+}
+
+.horario-linha {
+  width: 60px;
+  height: 1px;
+  background-color: var(--cinza-70);
+}
+
+@media all and (max-width: 1150px) {
+  #carousel-desktop .carousel-caption {
+    bottom: 130px;
+  }
+
+  #carousel-desktop .titulo-banner {
+    font-size: 30px;
+  }
+
+  #carousel-desktop .carousel-indicators {
+    bottom: 40px;
+  }
+}
+
+@media all and (max-width: 1030px) {
+  #carousel-desktop .carousel-caption {
+    bottom: 120px;
+  }
+
+  #carousel-desktop .titulo-banner {
+    font-size: 22px;
+  }
+
+  #carousel-desktop .carousel-indicators {
+    bottom: 30px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .caixa-branca {
+    top: 0px;
+  }
+
+  .navbar .navbar-nav {
+    background-color: white;
+    padding: 30px 20px;
+  }
+
+  .caixa-branca img {
+    max-height: 400px;
+  }
+
+  footer hr {
+    border: 1px solid rgb(112, 112, 112);
+    background-color: rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .t1 {
+    font-size: 22px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .titulo {
+    font-size: 25px;
+  }
+}
